@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Portfolio Website",
+    "description": "A clean, modern portfolio site for showcasing work and attracting clients.",
+    "techStack": ["React", "SCSS Modules", "Vite", "Node.js", "Express", "MongoDB"],
+    "features": [
+      "Responsive design",
+      "Projects gallery",
+      "Contact form with email integration",
+      "Dark/light mode toggle",
+      "SEO optimized pages"
+    ],
+    "timeline": "2 weeks",
+    "priority": "High"
+  },
+  {
+    "name": "E-commerce Store",
+    "description": "A full-stack e-commerce web app with user authentication, product management, and payment integration.",
+    "techStack": ["React", "Redux Toolkit", "SCSS Modules", "Node.js", "Express", "MongoDB", "Stripe API"],
+    "features": [
+      "User authentication (JWT)",
+      "Product catalog and search",
+      "Shopping cart and checkout",
+      "Admin dashboard for inventory",
+      "Payment processing with Stripe"
+    ],
+    "timeline": "3 weeks",
+    "priority": "High"
+  },
+  {
+    "name": "Blog Platform",
+    "description": "A multi-user blog platform with rich text editor, comments, and user profiles.",
+    "techStack": ["React", "React Router", "SCSS Modules", "Node.js", "Express", "MongoDB"],
+    "features": [
+      "User registration and login",
+      "Rich text editor for posts",
+      "Comment system",
+      "User profiles and avatars",
+      "Public and private posts"
+    ],
+    "timeline": "2.5 weeks",
+    "priority": "Medium"
+  },
+  {
+    "name": "SaaS Dashboard",
+    "description": "An admin dashboard template for SaaS apps with analytics, user management, and API integration.",
+    "techStack": ["React", "React Query", "SCSS Modules", "Node.js", "Express", "MongoDB"],
+    "features": [
+      "Authentication and role-based access",
+      "Charts and analytics with Recharts",
+      "CRUD operations for users and data",
+      "Notifications system",
+      "API integration module"
+    ],
+    "timeline": "3 weeks",
+    "priority": "Medium"
+  }
+]
