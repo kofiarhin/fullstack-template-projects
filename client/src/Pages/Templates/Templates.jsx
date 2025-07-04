@@ -1,22 +1,12 @@
-import { useEffect, useState } from "react";
-
 const Templates = () => {
-  const [data, setData] = useState(null);
-  useEffect(() => {
-    const getTemplates = async () => {
-      try {
-        const res = await fetch("/api/templates");
-        const result = await res.json();
-        setData(result);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-    getTemplates();
-  }, []);
   return (
-    <div>
-      <h1 className="heading">{data && <p> render templates </p>}</h1>
+    <div className="container">
+      <h1 className="heading">Templates</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+        necessitatibus eaque quos ipsum inventore quod iusto voluptas possimus
+        hic aspernatur.
+      </p>
     </div>
   );
 };
